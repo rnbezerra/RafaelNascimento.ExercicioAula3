@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RafaelNascimento.Model", "RafaelNascimento.Model\RafaelNascimento.Model.csproj", "{0D505A1E-C479-461B-87ED-9890936F0982}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RafaelNascimento.ConsoleApp", "RafaelNascimento.ConsoleApp\RafaelNascimento.ConsoleApp.csproj", "{EB127822-D471-451D-AFBA-138A90D02988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D505A1E-C479-461B-87ED-9890936F0982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D505A1E-C479-461B-87ED-9890936F0982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D505A1E-C479-461B-87ED-9890936F0982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D505A1E-C479-461B-87ED-9890936F0982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB127822-D471-451D-AFBA-138A90D02988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB127822-D471-451D-AFBA-138A90D02988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB127822-D471-451D-AFBA-138A90D02988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB127822-D471-451D-AFBA-138A90D02988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
