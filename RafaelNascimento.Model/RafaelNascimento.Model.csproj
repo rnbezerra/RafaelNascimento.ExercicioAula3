@@ -46,6 +46,7 @@
     <Compile Include="Pessoa\Pessoa.cs" />
     <Compile Include="Pessoa\PessoaFisica.cs" />
     <Compile Include="Pessoa\PessoaJuridica.cs" />
+    <Compile Include="Pessoa\Sexo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Telefone\Telefone.cs" />
     <Compile Include="Endereco\UF.cs" />
