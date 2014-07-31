@@ -8,5 +8,7 @@ namespace RafaelNascimento.Model
 {
     public class UF
     {
+        public String Sigla { get; set; }
+        public String Nome { get; set; }
     }
 }

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace RafaelNascimento.Model
 {
-    class PessoaFisica
+    public class PessoaFisica : Pessoa
     {
+        public String RG { get; set; }
+        public String CPF { get; set; }
+        public String Nome { get; set; }
+        public String Sobrenome { get; set; }
+        public DateTime DataNascimento { get; set; }
+        public Sexo Sexo { get; set; }
     }
 }

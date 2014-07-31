@@ -13,5 +13,6 @@ namespace RafaelNascimento.Model
         Estrada,
         Beco,
         Praca,
+        Rodovia,
     }
 }

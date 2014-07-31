@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace RafaelNascimento.Model
 {
-    class Pessoa
+    public abstract class Pessoa
     {
+        public List<Telefone> Telefones { get; set; }
+        public Endereco Endereco { get; set; }
+        public String Email { get; set; }
     }
 }

@@ -8,5 +8,9 @@ namespace RafaelNascimento.Model
 {
     public enum TipoTelefone
     {
+        Celular, 
+        Residencial,
+        Comercial,
+        Outro,
     }
 }

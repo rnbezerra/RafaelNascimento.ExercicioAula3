@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace RafaelNascimento.Model
 {
-    public class Telefone
+    public enum Sexo
     {
-        public String DDD { get; set; }
-        public String Numero { get; set; }
-        public TipoTelefone Tipo { get; set; }
+        Masculino,
+        Feminino,
     }
 }

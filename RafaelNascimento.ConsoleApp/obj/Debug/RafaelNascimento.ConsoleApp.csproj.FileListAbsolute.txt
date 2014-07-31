@@ -1,1 +1,2 @@
 c:\Users\AlunoInfnet\Documents\Visual Studio 2012\Projects\RafaelNascimento.ExercicioAula3\RafaelNascimento.ConsoleApp\bin\Debug\RafaelNascimento.ConsoleApp.exe.config
+C:\Projects\GitHub\RafaelNascimento.ExercicioAula3\RafaelNascimento.ConsoleApp\bin\Debug\RafaelNascimento.ConsoleApp.exe.config
