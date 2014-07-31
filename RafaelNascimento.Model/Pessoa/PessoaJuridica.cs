@@ -11,5 +11,10 @@ namespace RafaelNascimento.Model
         public String CNPJ { get; set; }
         public String Nome { get; set; }
         public String NomeFantasia { get; set; }
+
+        public override string GetNome()
+        {
+            return this.NomeFantasia;
+        }
     }
 }

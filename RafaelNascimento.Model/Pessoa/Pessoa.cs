@@ -11,5 +11,8 @@ namespace RafaelNascimento.Model
         public List<Telefone> Telefones { get; set; }
         public Endereco Endereco { get; set; }
         public String Email { get; set; }
+        public Endereco Endereco { get; set; }
+
+        public abstract String GetNome();
     }
 }

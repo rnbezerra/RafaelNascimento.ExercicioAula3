@@ -8,7 +8,13 @@ namespace RafaelNascimento.Model
 {
     public class UF
     {
+        public int Id { get; set; }
         public String Sigla { get; set; }
-        public String Nome { get; set; }
+        //public String Nome { get; set; }
+
+        public override string ToString()
+        {
+            return this.Sigla;
+        }
     }
 }

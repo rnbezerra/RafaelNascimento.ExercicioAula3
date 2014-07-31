@@ -8,8 +8,13 @@ namespace RafaelNascimento.Model
 {
     public class Logradouro
     {
-        public String Logradouro { get; set; }
+        public int Id { get; set; }
+        public String Nome { get; set; }
+        public int Numero { get; set; }
         public TipoLogradouro Tipo { get; set; }
         public Bairro Bairro { get; set; }
+
+
+        
     }
 }

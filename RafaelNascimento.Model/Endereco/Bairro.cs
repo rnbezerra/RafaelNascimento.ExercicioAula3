@@ -8,6 +8,7 @@ namespace RafaelNascimento.Model
 {
     public class Bairro
     {
+        public int Id { get; set; }
         public String Nome { get; set; }
         public Cidade Cidade { get; set; }
     }

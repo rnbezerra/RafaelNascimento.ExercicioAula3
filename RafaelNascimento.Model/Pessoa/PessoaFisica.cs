@@ -14,5 +14,14 @@ namespace RafaelNascimento.Model
         public String Sobrenome { get; set; }
         public DateTime DataNascimento { get; set; }
         public Sexo Sexo { get; set; }
+
+        public override string GetNome()
+        {
+            StringBuilder builder =new StringBuilder();
+            builder.Append(this.Nome);
+            builder.Append(this.Sobrenome);
+            return builder.ToString();
+
+        }
     }
 }

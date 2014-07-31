@@ -8,5 +8,7 @@ namespace RafaelNascimento.Model
 {
     public enum TipoEndereco
     {
+        Comercial,
+        Residencial
     }
 }

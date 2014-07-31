@@ -8,7 +8,15 @@ namespace RafaelNascimento.Model
 {
     public class Cidade
     {
+        public int Id { get; set; }
         public String Nome { get; set; }
         public UF UF { get; set; }
+
+        public override string ToString()
+        {
+            StringBuilder builder = new StringBuilder(this.Nome);
+            builder.Append(this.UF.ToString());
+            return ;
+        }
     }
 }
